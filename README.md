@@ -1,6 +1,10 @@
-# S3FileCache
+# S3 File Cache
 
-**TODO: Add description**
+This library provides you with a simple way to cache files from S3 to your local filesystem and use those cached versions instead of downloading them from S3 every time.
+
+## Motivation
+
+If your application relies on files stored in an S3 compatible storage that need to be accessed repeatedly, you might want to cache them locally to avoid the overhead of downloading them from S3 every time. This library enables you to do just that.
 
 ## Installation
 
@@ -18,4 +22,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/s3_file_cache>.
-
