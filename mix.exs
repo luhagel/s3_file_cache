@@ -16,9 +16,9 @@ defmodule S3FileCache.MixProject do
       homepage_url: "http://hexdocs.pm/s3_file_cache",
       docs: [
         # The main page in the docs
-        main: "S3FileCache",
+        main: "readme",
         logo: "priv/static/logo.jpg",
-        extras: ["README.md"]
+        extras: ["README.md", "LICENSE.txt"]
       ],
       package: package()
     ]
@@ -48,6 +48,7 @@ defmodule S3FileCache.MixProject do
 
   defp package() do
     [
+      maintainers: ["Luca Hagel"],
       licenses: ["GPL-3.0-or-later"],
       links: %{"GitHub" => "https://github.com/luhagel/s3_file_cache"}
     ]
